@@ -1,0 +1,5 @@
+<div *ngIf="userDetails">
+  <app-user-image [imgUrl]="userDetails.picture.large"></app-user-image>
+  <app-user-details [title]="userDetails.name.title" [first]="userDetails.name.first" [last]="userDetails.name.last"></app-user-details>
+  <!-- <app-user-details-icon></app-user-details-icon> -->
+</div>
